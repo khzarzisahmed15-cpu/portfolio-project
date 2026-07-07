@@ -97,3 +97,56 @@ nav h2 {
     display: flex;
     padding: 100px;
 }
+
+.about-me-parent {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF8F3;
+    margin-top: 200px;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.about-me-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.about-me-cards p {
+    font-size: 20px;
+    color: #757575;
+}
+.about-me-cards h2 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.about-me-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.about-me-top h2 {
+    font-size: 35px;
+    color: #181818;
+    margin-top: 75px;
+}
+
+.about-me-top p {
+    font-size: 18px;
+    color: #757575;
+    margin-top: 50px;
+}
+
+
